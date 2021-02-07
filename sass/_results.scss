@@ -46,6 +46,11 @@
     color: $header-bg;
     transform: rotateY(180deg);
     @include flexCenter;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 @include mq(786px) {

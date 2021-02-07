@@ -14,9 +14,21 @@
     flex-direction: column;
 }
 
+#num {
+    background-color: $header-color;
+}
+
+.header {
+    text-shadow:
+    -1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
 .main-entry__input,
 .main-entry__button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Yusei Magic', sans-serif;
     font-size: 1rem;
     letter-spacing: 0.05em;
     padding: 0.25em;

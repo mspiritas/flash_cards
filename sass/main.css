@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@
 
 html {
   font-size: 42px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 body {
   width: 100%;
   min-height: 100vh;
-  background: #eee;
+  background: #ddffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,8 +40,8 @@ body {
 
 .header,
 .footer {
-  background: #333;
-  color: #fff;
+  background: #ffb3f6;
+  color: #f5f5dc;
   font-size: 0.5rem;
   width: 100%;
   min-height: 60px;
@@ -70,7 +70,7 @@ body {
 
 .header a,
 .footer a {
-  color: #fff;
+  color: #f5f5dc;
   text-decoration: none;
 }
 
@@ -127,9 +127,17 @@ body {
           flex-direction: column;
 }
 
+#num {
+  background-color: #f5f5dc;
+}
+
+.header {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .main-entry__input,
 .main-entry__button {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Yusei Magic', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.05em;
   padding: 0.25em;
@@ -141,8 +149,8 @@ body {
 }
 
 .main-entry__button {
-  background: limegreen;
-  color: #fff;
+  background: #cba3f6;
+  color: #f5f5dc;
 }
 
 .main-entry__input:focus,
@@ -187,7 +195,7 @@ body {
   min-width: 150px;
   min-height: 100px;
   background: transparent;
-  color: #fff;
+  color: #f5f5dc;
   font-size: 1rem;
   padding: 1em;
   margin: 0.25em;
@@ -221,7 +229,7 @@ body {
 }
 
 .card-front {
-  background: dodgerblue;
+  background: #cba3f6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,8 +242,8 @@ body {
 }
 
 .card-back {
-  background: #fff;
-  color: #333;
+  background: #f5f5dc;
+  color: #ffb3f6;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   display: -webkit-box;
@@ -247,6 +255,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 @media only screen and (min-width: 786px) {
